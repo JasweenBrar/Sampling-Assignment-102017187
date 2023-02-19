@@ -20,7 +20,7 @@
   * The dataset is highly imbalanced as it contains 763 rows of Class 0 and only 9 rows of Class 1
   * So,I used SMOTE oversampling to balance the dataset
  
-### ⭐ TASK-2 -> Create 5 samples (Using sample size detection formula) & Using 5 Different sampling techniques
+### ⭐ TASK-2 -> Create 5 samples(Using sample size detection formula) & 5 Different sampling techniques
   **Techniques Used**
   * Sampling 1 = Simple Random Sampling
   * Sampling 2 = Stratified Sampling
@@ -36,7 +36,7 @@
   * M4 = Gradient Boosting Classifier
   * M5 = Random Forest Classifier
 
-### ⭐ TASK-4 -> Observe: Which sampling technique gives highest accuracy on which model?
+### ⭐ TASK-4 -> Find out accuracy score of sampling technique with respective ML model
   **Output Table**
 
   |  | Sampling 1 | Sampling 2 | Sampling 3 | Sampling 4 | Sampling 5 |
@@ -47,8 +47,24 @@
   | M4 = Gradient Boosting Classifier | 0.961039 | 0.987013 | 0.951923 | 0.935484 | 0.974026 |
   | M5 = Random Forest Classifier | 0.974026 | 0.993506 | 0.980769 | 0.983871 | 0.987013 |
 
+### ⭐ TASK-5 -> Observe: Which sampling technique gives highest accuracy on which model?
 
+  |  | Best ML Model |
+  | --- | --- |
+  | Sampling 1 = Simple Random Sampling | Random Forest Classifier |
+  | Sampling 2 = Stratified Sampling | Random Forest Classifier |
+  | Sampling 3 = Cluster Sampling | Random Forest Classifier |
+  | Sampling 4 = Systematic Sampling | Random Forest Classifier |
+  | Sampling 5 = Multi-Stage Sampling | Random Forest Classifier |
+ 
+ :smile: **We observe that we get best accuracy when we use Stratified Sampling on Random Forest Classifier**
 
-  
- 
- 
+ ## 💠 Learnings:
+
+ 🌿 Learnt how to balance imbalanced dataset
+
+ 🌿 How to calculate size of sample for a given sampling techniques
+
+ 🌿 Explored about 5 different sampling techniques
+
+ 🌿 Applied various ML Models to observe when we get best result
