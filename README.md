@@ -17,35 +17,26 @@
 
 ### ⭐ TASK-1 -> Download dataset and convert it into balanced dataset
 
-  *The dataset is highly imbalanced as it contains 763 rows of Class 0 and only 9 rows of Class 1*
-  
-  *So,I used SMOTE oversampling to balance the dataset*
+  * The dataset is highly imbalanced as it contains 763 rows of Class 0 and only 9 rows of Class 1
+  * So,I used SMOTE oversampling to balance the dataset
  
 ### ⭐ TASK-2 -> Create 5 samples (Using sample size detection formula) & Using 5 Different sampling techniques
   **Techniques Used**
 
-    *Sampling 1 = Simple Random Sampling*
-
-    *Sampling 2 = Stratified Sampling*
-
-    *Sampling 3 = Cluster Sampling*
-
-    *Sampling 4 = Systematic Sampling*
-
-    *Sampling 5 = Multi-Stage Sampling*
+    * Sampling 1 = Simple Random Sampling
+    * Sampling 2 = Stratified Sampling
+    * Sampling 3 = Cluster Sampling
+    * Sampling 4 = Systematic Sampling
+    * Sampling 5 = Multi-Stage Sampling
 
 ### ⭐ TASK-3 -> Train all 5 samples using 5 different ML Models
   **Models Used**
 
-    *M1 = Decision Tree*
-
-    *M2 = Logistic Regression*
-
-    *M3 = Gaussian Naive Bayes*
-
-    *M4 = Gradient Boosting Classifier*
-
-    *M5 = Random Forest Classifier*
+    * M1 = Decision Tree 
+    * M2 = Logistic Regression
+    * M3 = Gaussian Naive Bayes
+    * M4 = Gradient Boosting Classifier
+    * M5 = Random Forest Classifier
 
 ### ⭐ TASK-4 -> Observe: Which sampling technique gives highest accuracy on which model?
   **Output Table**
