@@ -70,4 +70,4 @@
  🌿 Applied various ML Models to observe when we get best result
  
  ## 💠 Code:
- * Check out the implementation and code here [CODE 😊](https://github.com/JasweenBrar/Sampling-Assignment-102017187/blob/main/sampling_102017187.ipynb)
+ * Check out the implementation (python notebook) and code here [CODE 😊](https://github.com/JasweenBrar/Sampling-Assignment-102017187/blob/main/sampling_102017187.ipynb)
